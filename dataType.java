@@ -19,3 +19,5 @@ class dataType {
     }
     
 
+/// all are primitive data types
+/// // int, long, short, byte, float, double, char, boolean
