@@ -11,6 +11,11 @@ public class Inheritance {
         int r3= obj2.add(78,67);
         int r4 =obj2.mul(3,5);
 
+        VeryAdvCal obj3 = new VeryAdvCal();
+        System.out.println(obj3.sub(7,9)+" overriding sub method");
+
+
+
         System.out.println(r3+ " "+ r4);
 
         
@@ -43,4 +48,9 @@ class VeryAdvCal extends  AdvanCal {
         return Math.pow(n1,n2);
     
     }
+
+    public int sub(int n1, int n2) {
+        return n2 -n1; // over ridding the sub method from Calcu class, different behavior
+    }
 }
+
