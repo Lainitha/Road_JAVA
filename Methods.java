@@ -59,7 +59,7 @@ class Calculator {
         return a + b + c;
     }
 
-    // Method 3: Add two doubles
+    // Method 3: Add two doubles with over loading
     public double add(double a, double b) {
         return a + b;
     }
