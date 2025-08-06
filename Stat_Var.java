@@ -27,6 +27,11 @@ class Mobile{
     int cost;
     static String type;
 
+    static{
+        type="Mobile-static smartphone"; // static block to initialize static variable
+        System.out.println("Static block executed: type initialized to " ); 
+    }
+
     public void show(){
         System.out.println(brand+ " : "+ cost+" :"+ type);
     }
