@@ -11,7 +11,7 @@ public class Strings {
 
 		String name2="navin";
 		name2=name2+"reddy";
-		System.out.println("hello"+name2);
+		System.out.println("hello "+name2);
 		
 		String s1="Navin";
 		String s2="Navin";
