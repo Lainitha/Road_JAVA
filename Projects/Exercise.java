@@ -1,3 +1,4 @@
+package Projects;
 // TODO: Create an class called Employee
 class Employee{
     private String name;
@@ -38,6 +39,8 @@ class Manager extends Employee{
         
     }
     
+
+
     @Override
     public String getDetails(){
         return super.getDetails() +  ", Department: " + department;  
@@ -48,9 +51,13 @@ class Manager extends Employee{
 }
 
 
+
+
 public class Exercise{
     public static void main(String[] args) {
         // TODO: Create Employee and Manager objects
+
+        String name="lainitha";
         
         Manager obj= new Manager("Bob", 80000.0, "IT");
         Employee obj1= new Employee("Alice",50000.0);
